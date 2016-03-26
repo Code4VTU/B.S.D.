@@ -32,7 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   var surname = txtSurName.value;
   var numb = numb.value;
   
-  txtOutput.value = "Поръчка: " + name + ";" + surname + ";" + add + ";" + numb + ";" + sSmall
+  txtOutput.value = "Поръчка: " + name + "; " + surname + "; " + add + "; " + numb + "; " + sSmall
   } 											// end sayHi
  </script>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -46,6 +46,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 	<!--banner-->
+	
+		
+	
 	<div class="banner about-bnr">
 		<div class="banner-info about-bnr-info">
 			<div class="container">
@@ -55,7 +58,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<h2>Better Ingredients better Pizza</h2>
 				</div>			
-				<!--navigation-->
+					<!--navigation-->
 				<div class="top-nav">
 					<nav class="navbar navbar-default">
 						<div class="navbar-header">
@@ -69,11 +72,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-center cl-effect-14">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about.html">About</a></li>					
-								<li><a href="codes.html" class="active">Codes</a></li>
-								<li><a href="gallery.html">Gallery</a></li>	
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="index.html" class="active">Начало</a></li>
+								<li><a href="about.html">За нас</a></li>		
+								 								
+								<li><a href="gallery.html">Пици</a></li>	
+							
+								<li><a href="contact.html">Контакти</a></li>
 							</ul>	
 							<div class="clearfix"> </div>
 						</div>	
@@ -82,7 +86,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!--navigation-->
 			</div>
 		</div>
-		<h1>Поръчка</h1>
+	
+	<div class="container1">
+			<div class="contact-info">
+				<h3 class="title">Поръчка</h3>
+				</BR>	<h1></h1>
  <form action = "">
   <fieldset>
   <label>Име: </label>
@@ -100,30 +108,55 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<input type = "radio"
 	name="size" value="Малка; Цена 4,49лв." id="sSmall">
     Малка<br>
-	
-	
-	
-	
-	
-	
-	
 	<label>Телефон за контакт: </label>
   <input type = "number"
     id = "numb" /></br>
   <input type = "button"
     value = "Финализирай"л
     onclick = "sayHi()"/>
-  <input type = "textfield"
+  <input type = "textarea"
     id = "txtOutput" />
   </fieldset>
  </form>
+				
+			</div>
+			
+			
+		</div>
+		
+	
 
 	</body> 
 	
-	<!--//footer-->
-	
+		<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-3 footer-left">
+				<h4>Адрес</h4>
+				<ul>
+					<li>ВТУ - КОРПУС 3</li>
+				
+				
+				
+				</ul>				
+			</div>
+			<div class="col-md-3 footer-left">
+				<h4>Линкове </h4>
+				<ul>
+					<li><a href="#"></a>L1</li>
+					<li><a href="#">Poshta</a></li>
+					<li><a href="#">Vrata</a></li>
+					<li><a href="#">...</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-left">
+		 		<h4></h4>
+				<ul>
+					
+				</ul>
+			</div>
 			<div class="col-md-3 footer-right">
-				<p> © 2016 Pizza REVOLUTION . All rights reserved | Design by B.S.D. <a href="B.S.D"</a></p>
+				<p> © 2016 Pizza REVOLUTION . All rights reserved | Design by <a href="">B.D.S</a></p>
 				<div class="icons">
 				<ul>
 					<li><a href="#" class="twitter"> </a></li>
@@ -136,5 +169,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="clearfix"> </div>
 		</div>
+	</div>
+	
+	
+	
+	<!--//footer-->
+	
+		
 	</div>
 	</html>
