@@ -64,7 +64,7 @@ body a:hover{
 .ribbon {
     width: 23%;
     position: relative;
-    background:#ff0000;
+    background:#ff9d00;
     height: 70px;
     margin: 0px auto;
     left: 0;
@@ -75,7 +75,7 @@ body a:hover{
     position: absolute;
     display: block;
     top: 0;
-    border: 35px solid #ff0000;
+    border: 35px solid #ff9d00;
     z-index: 1;
 }
 .ribbon::before {
@@ -107,6 +107,7 @@ body a:hover{
 }
 .banner-bottom {
     background-color: #ff0000;
+	background-image: url(../images/bg1.png);
     min-height: 350px;
 	position:relative;
 }
@@ -189,10 +190,10 @@ div#bs-example-navbar-collapse-1 {
     line-height: 1.5em;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #AEE3EF;
+    color: #ed4f00;
 }
 .navbar-nav > li > a.active {
-    color: #AEE3EF;
+    color: #ed4f00;
 }
 /* Effect 14: border switch */
 .cl-effect-14 a {
@@ -270,13 +271,13 @@ h3.title {
     font-size: 3.5em;
     font-family: 'OleoScript-Regular';
     line-height: 1em;
-    color: #000;
+    color: #ff9d00;
     text-align: center;
 }
 .welcome p {
-    font-size: 1em;
+    font-size: 1.2em;
 	margin-top:.5em;
-    color: #000;
+    color: #ed4f00;
     line-height: 1.8em;
 	text-align:center;
 }
@@ -333,7 +334,7 @@ img.zoom-img:hover{
 }
 .services span.glyphicon {
     font-size: 3em;
-	color:#ff0000;
+	color:#ff9d00;
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
@@ -477,7 +478,7 @@ img.zoom-img:hover{
 .menu {
     padding: 13em 0 5em;
     position: relative;
-	background-image: url(../images/icon5.png);
+	background-image: url(../images/bg1.png);
     background-color: #ff0000;
 }
 .menu-tag {
@@ -508,14 +509,14 @@ img.zoom-img:hover{
 .menu-text-left h4 {
     font-size: 1.6em;
     margin: 0;
-    color: #68686A;
+    color: #ff9d00;/* GOREN tekstttt */
     margin-bottom: 0.4em;
     font-family: 'OleoScript-Regular';
 }
 .menu-text-left h6 {
     font-size: 1em;
     margin: 0;
-    color: #7DB0BB;
+    color: #ed4f00;/* dolen tekstttt */
 }
 .menu-text-midle {
   float: left;
@@ -540,7 +541,7 @@ img.zoom-img:hover{
 .menu-text-right h4 {
   margin: 0;
   font-size: 22px;
-  color:#555555;
+  color:#ff9d00;
   text-align: left;
 }
 .menu-grids-info {
@@ -575,7 +576,7 @@ img.zoom-img:hover{
   width: 95%;
 }
 .styled-button-6 {
-	background:#f78096;
+	background:#ff9d00;
 	background: -moz-linear-gradient(top,#f78096 0%,#f56778 100%);
 	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f78096),color-stop(100%,#f56778));
 	background: -webkit-linear-gradient(top,#f78096 0%,#f56778 100%);
@@ -600,13 +601,13 @@ ul#myList {
     margin-bottom: 1em;
 }
 #loadMore {
-    color: #68686A;
+    color: #ff9d00;
     cursor: pointer;
     padding: 8px 32px 8px 8px;
     width: 12%;
     margin-right: 1em;
     display: inline-block;
-    border: 1px solid #68686A;
+    border: 1px solid #ff9d00;
     font-size: 1.1em;
     background: url(../images/icon1.png)no-repeat 112px 16px;
     position: relative;
@@ -623,13 +624,13 @@ ul#myList {
 	background: url(../images/icon2.png)no-repeat  #68686A   112px 16px;
 }
 #showLess {
-	color: #68686A;
+	color: #ff9d00;
 	cursor: pointer;
 	padding: 8px 32px 8px 8px;
 	width: 12%;
 	margin-left: 1em;
 	display: inline-block;
-	border: 1px solid #68686A;
+	border: 1px solid #ff9d00;
 	font-size: 1.1em;
 	background:url(../images/icon3.png)no-repeat 112px 16px;
 	position: relative;
@@ -678,64 +679,18 @@ div#showLess:after {
 	opacity: 1;
 }
 /*--//menu--*/
-/*--testimonial--*/
-.testimonial {
-    padding: 6em 0;
-}
-.testimonial h3.title {
-    margin-bottom: 1em;
-}
-.testimonial-grids {
-  width: 82%;
-  margin: 0 auto;
-}
-.testimonial-left {
-    width: 14%;
-    float: left;
-    border: 2px solid #004A3D;
-    border-radius: 50%;
-    padding: 5px;
-}
-.testimonial-left img{
-	border-radius:50%;
-	width:100%;
-}
-.testimonial-right{
-  float: left;
-  width: 65%;
-  margin: 1em 0 0 2em;
-}
-.testimonial-right h5 {
-    color: #68686a;
-    margin: 0;
-    font-size: 2em;
-    font-family: 'OleoScript-Regular';
-}
-.testimonial-right p{
-  color: #999;
-  font-size: 1em;
-  margin: 1em 0 0 0;
-  line-height: 1.8em;
-}
-.testimonial-right p span{
-  font-size: 2em;
-  line-height: .1em;
-  vertical-align: middle;
-}
-ul.callbacks_tabs.callbacks2_tabs {
-  left: 46%;
-}
+
 /*--//testimonial--*/
 /*--footer--*/
 .footer {
-  background: #555;
+  background: #ededed;
   padding: 5em 0;
 }
 .footer h4 {
     font-size: 2.8em;
     font-family: 'OleoScript-Regular';
     line-height: 1em;
-    color: #AEE3EF;
+    color: #ff9d00;
     margin-bottom: 0.5em;
 }
 .footer-left ul {
@@ -745,17 +700,17 @@ ul.callbacks_tabs.callbacks2_tabs {
 .footer-left ul li {
 	display: block;
 	font-size: 1em;
-	color: #fff;
+	color: #ed4f00;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	margin-bottom: 0.5em;
 }
 .footer-left ul li:nth-child(2),.footer-left ul li:nth-child(3) {
   font-weight: 100;
-  color: #ebebeb;
+  color: #ed4f00;
 }
 .footer-left ul li a{
-	color: #fff;
+	color: #ed4f00;
 	text-decoration:none;
 }
 .footer-left ul li a:hover{
@@ -765,13 +720,13 @@ ul.callbacks_tabs.callbacks2_tabs {
   display: inline-block;
 }
 .footer-right p {
-  color: #fff;
+  color: #ed4f00;
   font-size: 1em;
   letter-spacing: 1px;
   margin: 1em 0 0;
 }
 .footer-right p a {
-  color: #AEE3EF;
+  color: #ed4f00;
   font-size: 1em;
   letter-spacing: 1px;
 }
@@ -1220,14 +1175,14 @@ h3.hdg {
     font-size: 2em;
 }
 .show-grid [class^=col-] {
-    background: #fff;
+    background: #ff9d00;
   text-align: center;
   margin-bottom: 10px;
   line-height: 2em;
   border: 10px solid #f0f0f0;
 }
 .show-grid [class*="col-"]:hover {
-  background: #e0e0e0;
+  background: #ed4f00;
 }
 .grid_3{
 	margin-bottom:2em;
@@ -2120,27 +2075,19 @@ h3.title {
     font-size: 0.85em;
 	background-position: 91px 13px;
 }
-.testimonial {
-    padding: 2em 0;
-}
-.testimonial-right h5 {
-    font-size: 1.2em;
-}
-.testimonial-right p {
-    font-size: 0.85em;
-}
-.testimonial-right {
-    margin: 0.5em 0 0 1em;
-}
+
+
 .callbacks_tabs a:after {
     height: 9px;
     width: 9px;
 }
 .footer {
     padding: 2em 0 1em;
+	font-color:ed4f00;
 }
 .footer h4 {
     font-size: 2em;
+	
 }
 .footer-left {
     padding: 0;
